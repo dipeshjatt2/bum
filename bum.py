@@ -54,4 +54,4 @@ if __name__ == '__main__':
     re = genToken(query)
     while True:    
         mine_bums(re)
-        time.sleep(random.randint(10,30))
+        sleep(random.randint(10,30))
